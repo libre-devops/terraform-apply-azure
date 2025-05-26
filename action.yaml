@@ -1,5 +1,5 @@
-name: 'Libre DevOps – Terraform Plan for Azure'
-description: 'Run the Run-AzTerraform.ps1 script with terraform plan parameters'
+name: 'Libre DevOps – Terraform Apply for Azure'
+description: 'Run the Run-AzTerraform.ps1 script with terraform apply parameters'
 author: 'Craig Thacker (craig@craigthacker.dev)'
 branding:
   icon: terminal
@@ -48,7 +48,7 @@ inputs:
   run-terraform-apply:
     description: 'Whether to run terraform apply'
     required: false
-    default: 'false'
+    default: 'true'
 
   run-terraform-destroy:
     description: 'Whether to run terraform destroy'
